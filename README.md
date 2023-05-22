@@ -59,6 +59,20 @@ Finally, we want to see what happens when we change the number of sensors. First
 ![](https://github.com/SamQLuong/SHRED-Model-Analysis/blob/main/9S%20Case.png)
  
  Figure 7: The 9 sensor case of the SHRED model. Lag time is 52, number of sensor is 9, and no noise.
+ 
+ For a better look at the results, I made a loop to create a graph when changing the values. For Figure 8, 9, and 10, we can see the neural network can still function even though the number of sensors and lag time changes. However, the noise levels increases the mean square error as we increase the standard deviation. 
+ 
+ ![](https://github.com/SamQLuong/SHRED-Model-Analysis/blob/main/Error%20for%20Lag.png)
+ 
+ Figure 8: The mean square error stays roughly the same as we increase the lag time. 
+ 
+ ![](https://github.com/SamQLuong/SHRED-Model-Analysis/blob/main/Error%20for%20Sensor.png)
+ 
+ Figure 9: The mean square error stays roughly the same as we increase the number of sensors
+ 
+ ![](https://github.com/SamQLuong/SHRED-Model-Analysis/blob/main/Error%20for%20Noise.png)
+ 
+ Figure 10: The mean square error increases as we increase the standard deviation of the noise levels.
 
 ## Conclusion
 
